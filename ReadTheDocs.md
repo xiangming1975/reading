@@ -10,7 +10,10 @@
 
 在termux里面安装sphinx、主题以及markdown插件：
 
-`pip install sphinx sphinx_rtd_theme recommonmark`
+```
+pip install sphinx sphinx_rtd_theme recommonmark
+```
+别的主题可以在 [sphinx theme](https://sphinx-themes.org/)中找到。
 
 ## 第三步
 

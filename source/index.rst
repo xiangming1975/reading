@@ -9,8 +9,8 @@
 .. toctree::
    :maxdepth: 2
    :caption: 目录:
-   :glob:
-   2020*
+
+   contents
    2020-06-01
    2020-06-02
    2020-06-03

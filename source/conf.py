@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 # project = 'Reading_Notes'
-pojext = '向明阅读笔记'
+project = '向明阅读笔记'
 copyright = '2020, Xiang Ming'
 author = 'Xiang Ming'
 

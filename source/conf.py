@@ -17,12 +17,13 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Reading_Notes'
+# project = 'Reading_Notes'
+pojext = '向明阅读笔记'
 copyright = '2020, Xiang Ming'
 author = 'Xiang Ming'
 
 # The full version, including alpha/beta/rc tags
-release = '1'
+release = '2'
 
 
 # -- General configuration ---------------------------------------------------

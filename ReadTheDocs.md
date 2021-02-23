@@ -12,6 +12,8 @@
 
 ```
 pip install sphinx sphinx_rtd_theme recommonmark
+
+pip install sphinxcontrib-mermaid
 ```
 别的主题可以在 [sphinx theme](https://sphinx-themes.org/)中找到。
 
@@ -36,6 +38,7 @@ extensions = [
     'sphinx.ext.ifconfig',
     'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
+    'sphinxcontrib.mermaid',
     'recommonmark'
 ]
 source_suffix = ['.rst', '.md']

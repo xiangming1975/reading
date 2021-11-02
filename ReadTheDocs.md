@@ -85,7 +85,7 @@ index.rst：
 
 用github注册readthedocs.io。导入刚才push的项目。语言选择简体中文，编程语言根据实际情况来选择，我这是笔记，选择Only Words。
 
-高级设置里面，Disable Analytics勾选，毕竟没有Google 分Analytics Tracking ID。
+高级设置里面，Disable Analytics勾选，除非你有Google Analytics Tracking ID。
 
 ## 第七步
 

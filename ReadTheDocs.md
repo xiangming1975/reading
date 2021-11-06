@@ -1,6 +1,6 @@
 # 文档如何同步到ReadTheDocs
 
-我这几天尝试着在手机上利用github, sphinx, eeadthedocs发布我的markdown格式读书笔记，终于成功。
+我这几天尝试着在手机上利用github, sphinx, readthedocs发布我的markdown格式读书笔记，终于成功。
 
 ## 第一步
 
@@ -17,11 +17,17 @@ pip install sphinxcontrib-mermaid
 ```
 别的主题可以在 [sphinx theme](https://sphinx-themes.org/)中找到。
 
+**这一步不需要了。**
+
 ## 第三步
 
 运行 sphinx-quickstart，做适当设置。项目名称可以设置为中文的，语言设置为 zh_CN。
 
+**这一步也可以不需要。**
+
 ## 第四步
+
+**如果不执行第三步，这一步所涉及的两个文件就需要手工创建。**
 
 修改index.rst和conf.py。
 
@@ -83,14 +89,22 @@ index.rst：
 
 ## 第六步
 
+**前面简化掉那几步是因为readthedocs自带了相应的文件，而且自己会执行相应的操作。**
+
 用github注册readthedocs.io。导入刚才push的项目。语言选择简体中文，编程语言根据实际情况来选择，我这是笔记，选择Only Words。
 
 高级设置里面，Disable Analytics勾选，除非你有Google Analytics Tracking ID。
+
+**似乎如果勾选“生成epub文件”会导致readthedocs出错，不能完成自动构建。**
 
 ## 第七步
 
 进入termux，进入文档主目录，make html。完成后git push。等待readthedocs自动构建，稍等片刻，就可以打开网址阅读文档。
 
+**不需要make htnl了，直接git push就行。**
+
 ## 结语
 
 以后每次编辑完文档就make html一次，然后 git push，readthedocs这边就会自动构建。
+
+**不需要make htnl了，直接git push就行。**

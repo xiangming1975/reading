@@ -45,6 +45,7 @@ extensions = [
 #    'sphinxcontrib.mermaid',
 #    'sphinxcontrib.fulltoc', 
 #    'recommonmark'
+     'myst_parser',
      'sphinx_rtd_theme'
 ]
 

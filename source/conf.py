@@ -24,7 +24,7 @@ copyright = '2020, Xiang Ming'
 author = 'Xiang Ming'
 
 # The full version, including alpha/beta/rc tags
-release = '2'
+release = 'v3'
 
 
 # -- General configuration ---------------------------------------------------

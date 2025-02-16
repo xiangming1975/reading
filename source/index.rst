@@ -7,10 +7,10 @@
 ===========================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: 目录:
    :glob:
    :reversed: 
 
    contents
-   2*
+   *md

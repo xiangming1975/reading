@@ -2,9 +2,9 @@
 ===========================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: 目录:
    :glob:
    :reversed: 
 
-   2*
+   *md

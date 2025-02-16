@@ -43,7 +43,7 @@ extensions = [
     'sphinx.ext.githubpages',
 #    'sphinxcontrib.mermaid',
 #    'sphinxcontrib.fulltoc', 
-    'recommonmark'
+#    'recommonmark'
 ]
 
 # Add any paths that contain templates here, relative to this directory.

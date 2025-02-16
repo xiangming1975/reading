@@ -7,4 +7,4 @@
    :glob:
    :reversed: 
 
-   *md
+   2*

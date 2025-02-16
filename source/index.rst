@@ -13,4 +13,4 @@
    :reversed: 
 
    contents
-   *
+   *.md

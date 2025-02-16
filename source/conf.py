@@ -44,8 +44,8 @@ extensions = [
     'sphinx.ext.githubpages',
 #    'sphinxcontrib.mermaid',
 #    'sphinxcontrib.fulltoc', 
-#    'recommonmark'
-     'myst_parser',
+     'recommonmark',
+#     'myst_parser',
      'sphinx_rtd_theme'
 ]
 
